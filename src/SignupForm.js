@@ -15,12 +15,12 @@ import { Alert } from "react-bootstrap";
  * RoutesList => SignupForm
  */
 function SignupForm({ signup }) {
-  const initState = { //FIXME: remove these:
-    username: 'test',
-    password: 'test1',
-    firstName: 'test',
-    lastName: 'test',
-    email: 'test@gmail.com'
+  const initState = {
+    username: '',
+    password: '',
+    firstName: '',
+    lastName: '',
+    email: ''
   };
 
   const navigate = useNavigate();

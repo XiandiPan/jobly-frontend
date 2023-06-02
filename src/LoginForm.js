@@ -14,9 +14,9 @@ import { useNavigate } from "react-router-dom";
  * RoutesList => LoginForm
  */
 function LoginForm({ login }) {
-  const initState = { 
-    username: 'test',
-    password: 'test1',
+  const initState = {
+    username: '',
+    password: '',
   };
   const [data, setData] = useState(initState);
   const [error, setError] = useState(null);
