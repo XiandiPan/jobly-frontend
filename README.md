@@ -18,8 +18,9 @@
 
   
 #### Setting it up
-1. 
-
+ 
+1. Clone the repository
+2. Change directory to the repository
 1. Run` npm i `to install dependencies.
 2. Start the application with `npm start`.
 (If encounter an error, try clearing the LocalStorage and refreshing the page)
